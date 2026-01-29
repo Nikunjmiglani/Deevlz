@@ -17,7 +17,7 @@ export const metadata = {
   title: "DeevLz - Most comprehensive agency",
   description: "Best",
    icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon-v2.ico",
   },
 };
 
