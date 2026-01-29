@@ -157,7 +157,7 @@ export default function Home() {
           </p>
 
           <Link
-            href="/student"
+            href="/students"
             className="inline-block font-bold border border-blue-400 text-blue-400 px-6 py-2 rounded-full hover:bg-blue-400 hover:text-black transition"
           >
             Visit Deevlz Student →

@@ -35,7 +35,8 @@ export default function StudentPage() {
         </p>
 
         <Link
-          href="/contact"
+          href="https://wa.me/919519517579"
+          target="/"
           className="mt-6 inline-block bg-blue-400 text-black font-bold px-8 py-3 rounded-full hover:scale-105 transition"
         >
           Get academic help →
@@ -48,7 +49,7 @@ export default function StudentPage() {
         whileInView="show"
         viewport={{ once: true }}
         variants={stagger}
-        className="max-w-6xl mx-auto px-6 mt-24"
+        className="max-w-6xl mx-auto px-6 mt-9"
       >
         <h2 className="text-3xl font-bold text-center mb-12">
           What we help you with
@@ -149,7 +150,8 @@ export default function StudentPage() {
         </p>
 
         <Link
-          href="/contact"
+          href="https://wa.me/91951951759"
+              target="_blank"
           className="inline-block bg-blue-400 text-black font-bold px-8 py-3 rounded-full hover:scale-105 transition"
         >
           Contact Deevlz Student →

@@ -40,7 +40,7 @@ export default function ServicesPage() {
         whileInView="show"
         viewport={{ once: true }}
         variants={stagger}
-        className="max-w-6xl mx-auto px-6 mt-16"
+        className="max-w-6xl mx-auto px-6 mt-10"
       >
         <h2 className="text-3xl font-bold text-center mb-12">Core Services</h2>
 

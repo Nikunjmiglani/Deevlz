@@ -54,16 +54,16 @@ export default function ContactPage() {
 
           <div className="flex items-center gap-3 mb-6">
             <FaEnvelope className="text-green-400" />
-            <span className="text-gray-300">contact@deevlz.com</span>
+            <span className="text-gray-300">deevlz.info@gmail.com</span>
           </div>
 
           <h3 className="font-bold mb-3">Follow us</h3>
 
           <div className="flex gap-4 text-xl">
-            <a href="#" className="hover:text-green-400 transition"><FaInstagram /></a>
-            <a href="#" className="hover:text-green-400 transition"><FaLinkedin /></a>
-            <a href="#" className="hover:text-green-400 transition"><FaTwitter /></a>
-            <a href="#" className="hover:text-green-400 transition"><FaGithub /></a>
+            <a href="https://www.instagram.com/deevlz.studio?igsh=OXMzaXo5aThjeXRt" target="/" className="hover:text-green-400 transition"><FaInstagram /></a>
+            
+            <a href="https://x.com/deevlz" target="/" className="hover:text-green-400 transition"><FaTwitter /></a>
+            
           </div>
 
           <div className="mt-10 border border-gray-700 rounded-xl p-5 bg-black/40">
@@ -79,7 +79,7 @@ export default function ContactPage() {
           <h3 className="text-xl font-bold mb-4">Start a project</h3>
 
           <form
-            action="https://formspree.io/f/YOUR_FORM_ID"
+            action="https://formspree.io/f/mwvboaqr"
             method="POST"
             className="flex flex-col gap-4"
           >

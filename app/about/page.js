@@ -30,8 +30,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-gray-400 max-w-2xl">
-          Deevlz is a modern digital agency focused on performance, clarity, and long-term results —
-          not vanity metrics.
+          Deevlz is a modern digital agency focused on performance, clarity, and long-term results not just metrics.
         </p>
       </motion.section>
 
@@ -41,17 +40,33 @@ export default function AboutPage() {
         whileInView="show"
         viewport={{ once: true }}
         variants={fadeUp}
-        className="max-w-5xl mx-auto px-6 mt-24"
+        className="max-w-5xl mx-auto px-6 mt-1"
       >
         <h2 className="text-3xl font-bold mb-4">Our Story</h2>
 
-        <p className="text-gray-400 leading-relaxed">
-          Deevlz started with a simple observation: most businesses waste money on bad websites,
-          weak SEO, and agencies that sell promises instead of results.
-          <br /><br />
-          We decided to build something different — a lean, execution-driven agency that treats
-          digital presence as a business asset, not decoration.
-        </p>
+       <p className="text-gray-400 leading-relaxed">
+  Deevlz started with a simple observation: most businesses waste money on bad websites,
+  weak SEO, and agencies that sell promises instead of results.
+  <br /><br />
+  So we did what any sleep-deprived engineering students would do, we built our own agency.
+  Three college students, one laptop each, too much coffee, and zero interest in selling
+  PowerPoint dreams.
+  <br /><br />
+  We decided to build something different: a lean, execution-driven team that treats
+  digital presence as a business asset, not decoration.
+  No fake “marketing gurus.” No recycled templates. No corporate nonsense.
+  <br /><br />
+  And because we’re students ourselves, we didn’t stop there.
+  We built <span className="text-white font-semibold">Deevlz Student</span> , a dedicated platform to help
+  students with assignments, projects, and real technical skills, without pushing them
+  into shortcuts that destroy their future.
+  <br /><br />
+  Today, Deevlz operates as a comprehensive digital agency:
+  helping businesses grow online while empowering students to build careers that actually matter.
+  <br /><br />
+  Just systems that work, websites that convert, and growth you can measure.
+</p>
+
       </motion.section>
 
       {/* VALUES */}
@@ -105,7 +120,7 @@ export default function AboutPage() {
           We don’t start with templates.
           <br /><br />
           We study your business model, customer behavior, competition, and growth targets.
-          Then we design systems — websites, SEO pipelines, and marketing workflows —
+          Then we design systems , websites, SEO pipelines, and marketing workflows ,
           that compound value over time.
           <br /><br />
           Simple. Measurable. Scalable.
@@ -144,7 +159,7 @@ export default function AboutPage() {
         <h2 className="text-3xl font-bold mb-4">Let’s build something serious.</h2>
 
         <p className="text-gray-400 mb-6">
-          If you want real growth, not cosmetic changes — we should talk.
+          If you want real growth, not cosmetic changes , we should talk.
         </p>
 
         <Link
