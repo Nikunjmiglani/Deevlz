@@ -61,10 +61,15 @@ export default function AboutPage() {
   students with assignments, projects, and real technical skills, without pushing them
   into shortcuts that destroy their future.
   <br /><br />
-  Today, Deevlz operates as a comprehensive digital agency:
-  helping businesses grow online while empowering students to build careers that actually matter.
-  <br /><br />
-  Just systems that work, websites that convert, and growth you can measure.
+ Today, Deevlz operates as a comprehensive digital agency:
+helping businesses grow online while empowering students to build careers that actually matter.
+<br /><br />
+We also proudly manage the digital presence for brands like
+<span className="text-white font-bold"> Miggla.com</span> and
+<span className="text-white font-bold"> Miggla Interiors</span> —
+one of the prominent architecture and interior design firms based in Delhi.
+<br /><br />
+Just systems that work, websites that convert, and growth you can measure.
 </p>
 
       </motion.section>
