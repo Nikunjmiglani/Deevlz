@@ -290,7 +290,7 @@ export default function ServicesPage() {
         Perfect for new businesses launching their online presence.
       </p>
 
-      <p className="text-3xl font-bold mb-6">₹6,999</p>
+      <p className="text-3xl font-bold mb-6">₹4,999</p>
 
       <ul className="text-gray-300 text-sm space-y-3 mb-8">
         <li>✔ 1–5 page responsive website</li>
