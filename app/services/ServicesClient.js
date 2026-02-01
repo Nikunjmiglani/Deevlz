@@ -109,7 +109,7 @@ export default function ServicesClient() {
         Perfect for new businesses launching their online presence.
       </p>
 
-      <p className="text-3xl font-bold mb-6">₹4,999</p>
+      <p className="text-3xl font-bold mb-6">₹2,499</p>
 
       <ul className="text-gray-300 text-sm space-y-3 mb-8">
         <li>✔ 1–5 page responsive website</li>
@@ -141,7 +141,7 @@ export default function ServicesClient() {
         For businesses focused on traffic, leads, and consistent growth.
       </p>
 
-      <p className="text-3xl font-bold mb-6">₹8,999</p>
+      <p className="text-3xl font-bold mb-6">₹3,499 upfront + 1999/mo</p>
 
       <ul className="text-gray-300 text-sm space-y-3 mb-8">
         <li>✔ Multi page custom website</li>
@@ -169,7 +169,7 @@ export default function ServicesClient() {
         Built for brands that want authority and aggressive scaling.
       </p>
 
-      <p className="text-3xl font-bold mb-6">₹10,999</p>
+      <p className="text-3xl font-bold mb-6">₹7,999 + 1,999/mo </p>
 
       <ul className="text-gray-300 text-sm space-y-3 mb-8">
         <li>✔ Advanced web app / dashboard</li>

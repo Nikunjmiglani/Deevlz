@@ -74,7 +74,7 @@ export default function WebDevelopmentClient() {
               For small businesses getting online
             </p>
 
-            <p className="text-3xl font-bold mb-4">₹2,999</p>
+            <p className="text-3xl font-bold mb-4">₹1,999</p>
 
             <ul className="text-gray-400 text-sm space-y-2 mb-6">
               <li>✔ 1–5 page website</li>
@@ -102,7 +102,7 @@ export default function WebDevelopmentClient() {
               For serious growth-focused businesses
             </p>
 
-            <p className="text-3xl font-bold mb-4">₹5,999</p>
+            <p className="text-3xl font-bold mb-4">₹3,999</p>
 
             <ul className="text-gray-400 text-sm space-y-2 mb-6">
               <li>✔ Proper multi-page website</li>
@@ -131,7 +131,7 @@ export default function WebDevelopmentClient() {
               For startups & growing brands
             </p>
 
-            <p className="text-3xl font-bold mb-4">₹9,999</p>
+            <p className="text-3xl font-bold mb-4">₹5,999</p>
 
             <ul className="text-gray-400 text-sm space-y-2 mb-6">
               <li>✔ Fully custom web app / dashboard</li>

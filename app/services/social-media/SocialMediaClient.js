@@ -78,7 +78,7 @@ export default function SocialMediaClient() {
               Ideal for new brands building their online presence.
             </p>
 
-            <p className="text-3xl font-bold mb-6">₹2,999</p>
+            <p className="text-3xl font-bold mb-6">₹999</p>
 
             <ul className="text-gray-300 text-sm space-y-3 mb-8">
               <li>✔ Profile & account setup</li>
@@ -110,7 +110,7 @@ export default function SocialMediaClient() {
               For businesses that want consistent leads and engagement.
             </p>
 
-            <p className="text-3xl font-bold mb-6">₹4,999</p>
+            <p className="text-3xl font-bold mb-6">₹2,999/mo</p>
 
             <ul className="text-gray-300 text-sm space-y-3 mb-8">
               <li>✔ Content creation & scheduling</li>
@@ -139,7 +139,7 @@ export default function SocialMediaClient() {
               Built for startups and established brands scaling aggressively.
             </p>
 
-            <p className="text-3xl font-bold mb-6">₹7,999</p>
+            <p className="text-3xl font-bold mb-6">₹4,999/mo</p>
 
             <ul className="text-gray-300 text-sm space-y-3 mb-8">
               <li>✔ Custom growth strategy</li>
