@@ -6,15 +6,17 @@ export const metadata = {
 
 export default function TermsConditionsPage() {
   return (
-    <main className="max-w-4xl mx-auto px-6 py-24">
-      <h1 className="text-3xl font-bold mb-6">Terms & Conditions</h1>
+    <main className="max-w-4xl mx-auto px-6 py-24 text-white">
+      <h1 className="text-3xl md:text-4xl font-bold mb-6">
+        Terms & Conditions
+      </h1>
 
-      <p className="text-gray-400 mb-6">
+      <p className="text-gray-300 mb-10">
         These terms govern your use of the DevLLz website and services.
         By accessing or using our services, you agree to these terms.
       </p>
 
-      <section className="space-y-4 text-gray-300">
+      <section className="space-y-6 max-w-3xl text-gray-300">
         <p>
           <strong>Services:</strong> DevLLz provides web development, SEO,
           social media marketing, and related digital services.

@@ -21,7 +21,7 @@ export default function SocialMediaClient() {
       initial="hidden"
       animate="show"
       variants={stagger}
-      className="max-w-6xl mx-auto px-6 py-24"
+      className="max-w-6xl mx-auto px-6 py-24 text-white"
     >
       {/* HERO */}
       <motion.section variants={fadeUp} className="mb-24">
@@ -29,7 +29,7 @@ export default function SocialMediaClient() {
           Social Media That Brings Leads, Not Likes
         </h1>
 
-        <p className="text-gray-400 max-w-3xl mb-8">
+        <p className="text-gray-300 max-w-3xl mb-8">
           We manage content, outreach, and ads with one goal — business growth.
           No fake followers. No vanity metrics.
         </p>
@@ -60,7 +60,7 @@ export default function SocialMediaClient() {
           Social Media Management Plans
         </h2>
 
-        <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-gray-300 text-center mb-12 max-w-2xl mx-auto">
           Structured plans designed to grow visibility, engagement, and conversions —
           not vanity metrics.
         </p>
@@ -74,7 +74,7 @@ export default function SocialMediaClient() {
           >
             <FaRocket className="text-green-400 text-2xl mb-4" />
             <h3 className="text-xl font-bold mb-2">Starter</h3>
-            <p className="text-gray-400 text-sm mb-6">
+            <p className="text-gray-300 text-sm mb-6">
               Ideal for new brands building their online presence.
             </p>
 
@@ -106,7 +106,7 @@ export default function SocialMediaClient() {
 
             <FaCrown className="text-green-400 text-2xl mb-4 mt-2" />
             <h3 className="text-xl font-bold mb-2">Growth</h3>
-            <p className="text-gray-400 text-sm mb-6">
+            <p className="text-gray-300 text-sm mb-6">
               For businesses that want consistent leads and engagement.
             </p>
 
@@ -135,7 +135,7 @@ export default function SocialMediaClient() {
           >
             <FaRocket className="text-green-400 text-2xl mb-4" />
             <h3 className="text-xl font-bold mb-2">Scale</h3>
-            <p className="text-gray-400 text-sm mb-6">
+            <p className="text-gray-300 text-sm mb-6">
               Built for startups and established brands scaling aggressively.
             </p>
 
