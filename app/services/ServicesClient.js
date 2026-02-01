@@ -24,11 +24,11 @@ export default function ServicesClient() {
     >
       {/* HERO */}
       <motion.section variants={fadeUp} className="mb-24">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
           Digital Services Built for Growth
         </h1>
 
-        <p className="text-gray-400 max-w-3xl mb-8">
+        <p className="text-gray-600 dark:text-gray-400 max-w-3xl mb-8">
           We don’t sell random services. We build digital systems that help
           businesses get visibility, traffic, and customers — consistently.
         </p>
@@ -43,7 +43,9 @@ export default function ServicesClient() {
 
       {/* CORE SERVICES */}
       <motion.section variants={fadeUp} className="mb-28">
-        <h2 className="text-3xl font-bold mb-10">Our Core Services</h2>
+        <h2 className="text-3xl font-bold mb-10 text-gray-900 dark:text-white">
+          Our Core Services
+        </h2>
 
         <div className="grid md:grid-cols-2 gap-10">
           <ServiceCard
@@ -64,16 +66,16 @@ export default function ServicesClient() {
 
       {/* WHY COMBINE */}
       <motion.section variants={fadeUp} className="mb-28">
-        <h2 className="text-3xl font-bold mb-6">
+        <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
           Why a Combined Digital Strategy Works Better
         </h2>
 
-        <p className="text-gray-400 max-w-3xl mb-6">
+        <p className="text-gray-600 dark:text-gray-400 max-w-3xl mb-6">
           Running services in isolation limits growth. When your website,
           search visibility, and social presence work together, results compound.
         </p>
 
-        <ul className="space-y-3 text-gray-300 max-w-3xl">
+        <ul className="space-y-3 text-gray-700 dark:text-gray-300 max-w-3xl">
           <li>✔ Website converts traffic into leads</li>
           <li>✔ SEO brings consistent organic visitors</li>
           <li>✔ Social media builds trust & awareness</li>
@@ -81,122 +83,69 @@ export default function ServicesClient() {
         </ul>
       </motion.section>
 
-     {/* COMBO PRICING */}
-<motion.section
-  initial="hidden"
-  whileInView="show"
-  viewport={{ once: true }}
-  variants={stagger}
-  className="max-w-6xl mx-auto px-6 mt-20 mb-20"
->
-  <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-    Complete Digital Growth Packages
-  </h2>
-  <p className="text-gray-400 text-center mb-12 max-w-3xl mx-auto">
-    Everything your brand needs to attract, convert, and retain customers —
-    website, search visibility, and social media handled end-to-end.
-  </p>
-
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-    {/* LAUNCH */}
-    <motion.div
-      variants={fadeUp}
-      className="border border-gray-700 rounded-2xl p-6 bg-black/40 hover:border-green-400 transition"
-    >
-      <h3 className="text-xl font-bold mb-2">Launch</h3>
-      <p className="text-gray-400 text-sm mb-6">
-        Perfect for new businesses launching their online presence.
-      </p>
-
-      <p className="text-3xl font-bold mb-6">₹2,499</p>
-
-      <ul className="text-gray-300 text-sm space-y-3 mb-8">
-        <li>✔ 1–5 page responsive website</li>
-        <li>✔ Basic on-page SEO setup</li>
-        <li>✔ Social media account setup</li>
-        <li>✔ Content & posting strategy</li>
-        <li>✔ Basic analytics integration</li>
-      </ul>
-
-      <Link
-        href="/contact"
-        className="block w-full text-center bg-green-400 text-black font-semibold py-2 rounded-full"
+      {/* COMBO PRICING */}
+      <motion.section
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        variants={stagger}
+        className="mt-20 mb-20"
       >
-        Launch My Brand
-      </Link>
-    </motion.div>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+          Complete Digital Growth Packages
+        </h2>
 
-    {/* GROWTH PRO */}
-    <motion.div
-      variants={fadeUp}
-      className="border-2 border-green-400 rounded-2xl p-6 bg-black/60 scale-[1.05] relative"
-    >
-      <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-green-400 text-black text-xs font-bold px-3 py-1 rounded-full">
-        BEST VALUE
-      </span>
+        <p className="text-gray-600 dark:text-gray-400 text-center mb-12 max-w-3xl mx-auto">
+          Everything your brand needs to attract, convert, and retain customers.
+        </p>
 
-      <h3 className="text-xl font-bold mb-2 mt-2">Growth Pro</h3>
-      <p className="text-gray-400 text-sm mb-6">
-        For businesses focused on traffic, leads, and consistent growth.
-      </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <ComboCard
+            title="Launch"
+            price="₹2,499"
+            points={[
+              "1–5 page responsive website",
+              "Basic on-page SEO setup",
+              "Social media account setup",
+              "Content & posting strategy",
+              "Basic analytics integration",
+            ]}
+          />
 
-      <p className="text-3xl font-bold mb-6">₹3,499 upfront + 1999/mo</p>
+          <ComboCard
+            title="Growth Pro"
+            price="₹3,499 upfront + ₹1,999/mo"
+            highlight
+            points={[
+              "Multi-page custom website",
+              "Complete on-page & technical SEO",
+              "Social media management",
+              "Paid ads & outreach strategy",
+              "Monthly performance reports",
+            ]}
+          />
 
-      <ul className="text-gray-300 text-sm space-y-3 mb-8">
-        <li>✔ Multi page custom website</li>
-        <li>✔ Complete on-page & technical SEO</li>
-        <li>✔ Social media content creation & management</li>
-        <li>✔ Paid ads & outreach strategy</li>
-        <li>✔ Monthly performance reports</li>
-      </ul>
-
-      <Link
-        href="/contact"
-        className="block w-full text-center bg-green-400 text-black font-semibold py-2 rounded-full"
-      >
-        Choose Growth Pro
-      </Link>
-    </motion.div>
-
-    {/* DOMINATE */}
-    <motion.div
-      variants={fadeUp}
-      className="border border-gray-700 rounded-2xl p-6 bg-black/40 hover:border-green-400 transition"
-    >
-      <h3 className="text-xl font-bold mb-2">Dominate</h3>
-      <p className="text-gray-400 text-sm mb-6">
-        Built for brands that want authority and aggressive scaling.
-      </p>
-
-      <p className="text-3xl font-bold mb-6">₹7,999 + 1,999/mo </p>
-
-      <ul className="text-gray-300 text-sm space-y-3 mb-8">
-        <li>✔ Advanced web app / dashboard</li>
-        <li>✔ Full SEO (content, backlinks, audits)</li>
-        <li>✔ Multi-platform social media growth</li>
-        <li>✔ Conversion & funnel optimization</li>
-        <li>✔ Priority support & strategy calls</li>
-      </ul>
-
-      <Link
-        href="/contact"
-        className="block w-full text-center bg-green-400 text-black font-semibold py-2 rounded-full"
-      >
-        Book Strategy Call
-      </Link>
-    </motion.div>
-
-  </div>
-</motion.section>
+          <ComboCard
+            title="Dominate"
+            price="₹7,999 + ₹1,999/mo"
+            points={[
+              "Advanced web app / dashboard",
+              "Full SEO & backlinks",
+              "Multi-platform social growth",
+              "Funnel & conversion optimization",
+              "Priority support",
+            ]}
+          />
+        </div>
+      </motion.section>
 
       {/* FINAL CTA */}
       <motion.section variants={fadeUp} className="text-center">
-        <h3 className="text-2xl font-bold mb-4">
+        <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
           Not sure which service you need?
         </h3>
 
-        <p className="text-gray-400 mb-6">
+        <p className="text-gray-600 dark:text-gray-400 mb-6">
           We’ll help you choose the right strategy based on your business goals.
         </p>
 
@@ -211,34 +160,42 @@ export default function ServicesClient() {
   );
 }
 
-/* Service Card */
+/* SERVICE CARD */
 function ServiceCard({ title, desc, href, cta }) {
   return (
-    <div className="border border-gray-700 rounded-2xl p-6 bg-black/40 hover:border-green-400 transition">
-      <h3 className="text-2xl font-bold mb-3">{title}</h3>
-      <p className="text-gray-400 mb-6">{desc}</p>
+    <div className="border border-gray-200 dark:border-gray-700 rounded-2xl p-6 bg-white dark:bg-black/40 hover:border-green-400 transition">
+      <h3 className="text-2xl font-bold mb-3 text-gray-900 dark:text-white">
+        {title}
+      </h3>
 
-      <Link href={href} className="inline-block text-green-400 font-semibold">
+      <p className="text-gray-600 dark:text-gray-400 mb-6">{desc}</p>
+
+      <Link href={href} className="inline-block text-green-500 font-semibold">
         {cta} →
       </Link>
     </div>
   );
 }
 
-/* Combo Card */
+/* COMBO CARD */
 function ComboCard({ title, price, points, highlight }) {
   return (
     <div
       className={`border rounded-2xl p-6 ${
         highlight
-          ? "border-green-400 bg-black/60 scale-[1.05]"
-          : "border-gray-700 bg-black/40"
+          ? "border-green-400 bg-white dark:bg-black/60 scale-[1.05]"
+          : "border-gray-200 dark:border-gray-700 bg-white dark:bg-black/40"
       }`}
     >
-      <h3 className="text-xl font-bold mb-2">{title}</h3>
-      <p className="text-3xl font-bold mb-4">{price}</p>
+      <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
+        {title}
+      </h3>
 
-      <ul className="space-y-2 text-gray-300 text-sm mb-6">
+      <p className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
+        {price}
+      </p>
+
+      <ul className="space-y-2 text-gray-700 dark:text-gray-300 text-sm mb-6">
         {points.map((p, i) => (
           <li key={i}>✔ {p}</li>
         ))}
