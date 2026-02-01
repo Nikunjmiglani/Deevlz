@@ -21,7 +21,7 @@ export default function WebDevelopmentClient() {
       initial="hidden"
       animate="show"
       variants={stagger}
-      className="max-w-6xl mx-auto px-6 py-24"
+      className="max-w-6xl mx-auto px-6 py-24 text-white"
     >
       {/* HERO */}
       <motion.section variants={fadeUp} className="mb-24">
@@ -29,7 +29,7 @@ export default function WebDevelopmentClient() {
           Web Development That Converts Visitors into Customers
         </h1>
 
-        <p className="text-gray-400 max-w-3xl mb-8">
+        <p className="text-gray-300 max-w-3xl mb-8">
           We build fast, secure, and scalable websites designed for growth.
           No bloated templates. No useless animations. Just clean engineering
           and conversion-focused design.
@@ -66,17 +66,17 @@ export default function WebDevelopmentClient() {
           {/* STARTER */}
           <motion.div
             variants={fadeUp}
-            className="border border-gray-700 rounded-2xl p-6 bg-black/40"
+            className="border border-gray-700 rounded-2xl p-6 bg-black/40 hover:border-green-400 transition"
           >
             <FaRocket className="text-green-400 text-2xl mb-3" />
             <h3 className="text-xl font-bold mb-2">Starter</h3>
-            <p className="text-gray-400 text-sm mb-4">
+            <p className="text-gray-300 text-sm mb-4">
               For small businesses getting online
             </p>
 
             <p className="text-3xl font-bold mb-4">₹1,999</p>
 
-            <ul className="text-gray-400 text-sm space-y-2 mb-6">
+            <ul className="text-gray-300 text-sm space-y-2 mb-6">
               <li>✔ 1–5 page website</li>
               <li>✔ Basic SEO setup</li>
               <li>✔ Mobile responsive</li>
@@ -94,17 +94,17 @@ export default function WebDevelopmentClient() {
           {/* GROWTH */}
           <motion.div
             variants={fadeUp}
-            className="border border-green-400 rounded-2xl p-6 bg-black/50 scale-[1.05]"
+            className="border border-green-400 rounded-2xl p-6 bg-black/60 scale-[1.05]"
           >
             <FaCrown className="text-green-400 text-2xl mb-3" />
             <h3 className="text-xl font-bold mb-2">Growth</h3>
-            <p className="text-gray-400 text-sm mb-4">
+            <p className="text-gray-300 text-sm mb-4">
               For serious growth-focused businesses
             </p>
 
             <p className="text-3xl font-bold mb-4">₹3,999</p>
 
-            <ul className="text-gray-400 text-sm space-y-2 mb-6">
+            <ul className="text-gray-300 text-sm space-y-2 mb-6">
               <li>✔ Proper multi-page website</li>
               <li>✔ Advanced SEO setup</li>
               <li>✔ Speed optimization</li>
@@ -123,17 +123,17 @@ export default function WebDevelopmentClient() {
           {/* SCALE */}
           <motion.div
             variants={fadeUp}
-            className="border border-gray-700 rounded-2xl p-6 bg-black/40"
+            className="border border-gray-700 rounded-2xl p-6 bg-black/40 hover:border-green-400 transition"
           >
             <FaRocket className="text-green-400 text-2xl mb-3" />
             <h3 className="text-xl font-bold mb-2">Scale</h3>
-            <p className="text-gray-400 text-sm mb-4">
+            <p className="text-gray-300 text-sm mb-4">
               For startups & growing brands
             </p>
 
             <p className="text-3xl font-bold mb-4">₹5,999</p>
 
-            <ul className="text-gray-400 text-sm space-y-2 mb-6">
+            <ul className="text-gray-300 text-sm space-y-2 mb-6">
               <li>✔ Fully custom web app / dashboard</li>
               <li>✔ Full SEO strategy</li>
               <li>✔ Performance audits</li>
