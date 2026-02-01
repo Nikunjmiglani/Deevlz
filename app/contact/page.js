@@ -63,9 +63,9 @@ export default function ContactPage() {
           <h3 className="font-bold mb-3">Follow us</h3>
 
           <div className="flex gap-4 text-xl">
-            <a href="https://www.instagram.com/DevlLz.studio?igsh=OXMzaXo5aThjeXRt" target="/" className="hover:text-green-400 transition"><FaInstagram /></a>
+            <a href="https://www.instagram.com/Deevlz.studio?igsh=OXMzaXo5aThjeXRt" target="/" className="hover:text-green-400 transition"><FaInstagram /></a>
             
-            <a href="https://x.com/DevlLz" target="/" className="hover:text-green-400 transition"><FaTwitter /></a>
+            <a href="https://x.com/Deevlz" target="/" className="hover:text-green-400 transition"><FaTwitter /></a>
             
           </div>
 
