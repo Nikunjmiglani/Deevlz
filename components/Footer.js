@@ -48,7 +48,7 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <FaWhatsapp className="text-green-400" />
               <a
-                href="https://wa.me/91XXXXXXXXXX"
+                href="https://wa.me/919519517579"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-green-400 transition"
