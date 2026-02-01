@@ -23,7 +23,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/deevlzlogo.png"
+            src="/devllzlogo.png"
             width={60}
             height={60}
             alt="Deevlz logo"
