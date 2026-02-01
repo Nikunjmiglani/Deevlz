@@ -20,15 +20,15 @@ export default function ServicesClient() {
       initial="hidden"
       animate="show"
       variants={stagger}
-      className="max-w-6xl mx-auto px-6 py-24"
+      className="max-w-6xl mx-auto px-6 py-24 text-white"
     >
       {/* HERO */}
       <motion.section variants={fadeUp} className="mb-24">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">
           Digital Services Built for Growth
         </h1>
 
-        <p className="text-gray-600 dark:text-gray-400 max-w-3xl mb-8">
+        <p className="text-gray-300 max-w-3xl mb-8">
           We don’t sell random services. We build digital systems that help
           businesses get visibility, traffic, and customers — consistently.
         </p>
@@ -43,7 +43,7 @@ export default function ServicesClient() {
 
       {/* CORE SERVICES */}
       <motion.section variants={fadeUp} className="mb-28">
-        <h2 className="text-3xl font-bold mb-10 text-gray-900 dark:text-white">
+        <h2 className="text-3xl font-bold mb-10 text-center">
           Our Core Services
         </h2>
 
@@ -66,16 +66,16 @@ export default function ServicesClient() {
 
       {/* WHY COMBINE */}
       <motion.section variants={fadeUp} className="mb-28">
-        <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+        <h2 className="text-3xl font-bold mb-6">
           Why a Combined Digital Strategy Works Better
         </h2>
 
-        <p className="text-gray-600 dark:text-gray-400 max-w-3xl mb-6">
+        <p className="text-gray-300 max-w-3xl mb-6">
           Running services in isolation limits growth. When your website,
           search visibility, and social presence work together, results compound.
         </p>
 
-        <ul className="space-y-3 text-gray-700 dark:text-gray-300 max-w-3xl">
+        <ul className="space-y-3 text-gray-300 max-w-3xl">
           <li>✔ Website converts traffic into leads</li>
           <li>✔ SEO brings consistent organic visitors</li>
           <li>✔ Social media builds trust & awareness</li>
@@ -91,11 +91,11 @@ export default function ServicesClient() {
         variants={stagger}
         className="mt-20 mb-20"
       >
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Complete Digital Growth Packages
         </h2>
 
-        <p className="text-gray-600 dark:text-gray-400 text-center mb-12 max-w-3xl mx-auto">
+        <p className="text-gray-300 text-center mb-12 max-w-3xl mx-auto">
           Everything your brand needs to attract, convert, and retain customers.
         </p>
 
@@ -141,11 +141,11 @@ export default function ServicesClient() {
 
       {/* FINAL CTA */}
       <motion.section variants={fadeUp} className="text-center">
-        <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
+        <h3 className="text-2xl font-bold mb-4">
           Not sure which service you need?
         </h3>
 
-        <p className="text-gray-600 dark:text-gray-400 mb-6">
+        <p className="text-gray-300 mb-6">
           We’ll help you choose the right strategy based on your business goals.
         </p>
 
@@ -163,14 +163,11 @@ export default function ServicesClient() {
 /* SERVICE CARD */
 function ServiceCard({ title, desc, href, cta }) {
   return (
-    <div className="border border-gray-200 dark:border-gray-700 rounded-2xl p-6 bg-white dark:bg-black/40 hover:border-green-400 transition">
-      <h3 className="text-2xl font-bold mb-3 text-gray-900 dark:text-white">
-        {title}
-      </h3>
+    <div className="border border-gray-700 rounded-2xl p-6 bg-black/40 hover:border-green-400 transition">
+      <h3 className="text-2xl font-bold mb-3">{title}</h3>
+      <p className="text-gray-300 mb-6">{desc}</p>
 
-      <p className="text-gray-600 dark:text-gray-400 mb-6">{desc}</p>
-
-      <Link href={href} className="inline-block text-green-500 font-semibold">
+      <Link href={href} className="inline-block text-green-400 font-semibold">
         {cta} →
       </Link>
     </div>
@@ -183,19 +180,14 @@ function ComboCard({ title, price, points, highlight }) {
     <div
       className={`border rounded-2xl p-6 ${
         highlight
-          ? "border-green-400 bg-white dark:bg-black/60 scale-[1.05]"
-          : "border-gray-200 dark:border-gray-700 bg-white dark:bg-black/40"
+          ? "border-green-400 bg-black/60 scale-[1.05]"
+          : "border-gray-700 bg-black/40"
       }`}
     >
-      <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
-        {title}
-      </h3>
+      <h3 className="text-xl font-bold mb-2">{title}</h3>
+      <p className="text-3xl font-bold mb-4">{price}</p>
 
-      <p className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
-        {price}
-      </p>
-
-      <ul className="space-y-2 text-gray-700 dark:text-gray-300 text-sm mb-6">
+      <ul className="space-y-2 text-gray-300 text-sm mb-6">
         {points.map((p, i) => (
           <li key={i}>✔ {p}</li>
         ))}
