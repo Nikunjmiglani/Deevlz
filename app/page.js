@@ -38,7 +38,7 @@ export default function Home() {
           Crafting success in brand growth and visibility.
         </p>
 
-       <Link href="/contact"> <motion.button
+       <Link href="/servicesoffered"> <motion.button
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.95 }}
           className="mt-2 font-bold border cursor-pointer border-green-400 bg-green-400 text-black px-6 py-2 rounded-full"
