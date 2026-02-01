@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "DeevLz - Most comprehensive agency",
+  title: "DevlLz - Most comprehensive agency",
   description: "Best",
    icons: {
-    icon: "/favicon-v2.ico",
+    icon: "/favicon-v3.ico",
   },
 };
 

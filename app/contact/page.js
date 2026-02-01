@@ -52,17 +52,20 @@ export default function ContactPage() {
             we reply within 24 hours.
           </p>
 
-          <div className="flex items-center gap-3 mb-6">
-            <FaEnvelope className="text-green-400" />
-            <span className="text-gray-300">deevlz.info@gmail.com</span>
-          </div>
+         <a
+  href="mailto:Deevlz.info@gmail.com"
+  className="flex items-center gap-3 mb-6 text-gray-300 hover:text-green-400 transition"
+>
+  <FaEnvelope className="text-green-400" />
+  <span>Deevlz.info@gmail.com</span>
+</a>
 
           <h3 className="font-bold mb-3">Follow us</h3>
 
           <div className="flex gap-4 text-xl">
-            <a href="https://www.instagram.com/deevlz.studio?igsh=OXMzaXo5aThjeXRt" target="/" className="hover:text-green-400 transition"><FaInstagram /></a>
+            <a href="https://www.instagram.com/DevlLz.studio?igsh=OXMzaXo5aThjeXRt" target="/" className="hover:text-green-400 transition"><FaInstagram /></a>
             
-            <a href="https://x.com/deevlz" target="/" className="hover:text-green-400 transition"><FaTwitter /></a>
+            <a href="https://x.com/DevlLz" target="/" className="hover:text-green-400 transition"><FaTwitter /></a>
             
           </div>
 

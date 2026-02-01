@@ -94,7 +94,7 @@ export default function Home() {
         </motion.div>
       </motion.section>
 
-      {/* WHY DEEVLZ */}
+      {/* WHY DevlLz */}
       <motion.section
         initial="hidden"
         whileInView="show"
@@ -103,7 +103,7 @@ export default function Home() {
         className="mt-24 max-w-5xl mx-auto px-6 text-center"
       >
         <motion.h2 variants={fadeUp} className="text-3xl font-bold mb-6">
-          Why Deevlz?
+          Why DevlLz?
         </motion.h2>
 
         <motion.div
@@ -141,7 +141,7 @@ export default function Home() {
         </motion.div>
       </motion.section>
 
-      {/* DEEVLZ STUDENT */}
+      {/* DevlLz STUDENT */}
       <motion.section
         initial="hidden"
         whileInView="show"
@@ -153,14 +153,14 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-3">Are you a student?</h2>
 
           <p className="text-gray-300 mb-6">
-            Deevlz Student is our dedicated platform for student assignments, academic help, and practical project support.
+            DevlLz Student is our dedicated platform for student assignments, academic help, and practical project support.
           </p>
 
           <Link
             href="/students"
             className="inline-block font-bold border border-blue-400 text-blue-400 px-6 py-2 rounded-full hover:bg-blue-400 hover:text-black transition"
           >
-            Visit Deevlz Student →
+            Visit DevlLz Student →
           </Link>
         </div>
       </motion.section>
@@ -186,7 +186,7 @@ export default function Home() {
           whileTap={{ scale: 0.95 }}
           className="font-bold cursor-pointer bg-green-400 text-black px-8 py-3 rounded-full"
         >
-          Contact Deevlz
+          Contact DevlLz
         </motion.button>
       </motion.section>
 

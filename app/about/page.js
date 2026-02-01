@@ -30,7 +30,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-gray-400 max-w-2xl">
-          Deevlz is a modern digital agency focused on performance, clarity, and long-term results not just metrics.
+          DevlLz is a modern digital agency focused on performance, clarity, and long-term results not just metrics.
         </p>
       </motion.section>
 
@@ -45,7 +45,7 @@ export default function AboutPage() {
         <h2 className="text-3xl font-bold mb-4">Our Story</h2>
 
        <p className="text-gray-400 leading-relaxed">
-  Deevlz started with a simple observation: most businesses waste money on bad websites,
+  DevlLz started with a simple observation: most businesses waste money on bad websites,
   weak SEO, and agencies that sell promises instead of results.
   <br /><br />
   So we did what any sleep-deprived engineering students would do, we built our own agency.
@@ -57,11 +57,11 @@ export default function AboutPage() {
   No fake “marketing gurus.” No recycled templates. No corporate nonsense.
   <br /><br />
   And because we’re students ourselves, we didn’t stop there.
-  We built <span className="text-white font-semibold">Deevlz Student</span> , a dedicated platform to help
+  We built <span className="text-white font-semibold">DevlLz Student</span> , a dedicated platform to help
   students with assignments, projects, and real technical skills, without pushing them
   into shortcuts that destroy their future.
   <br /><br />
- Today, Deevlz operates as a comprehensive digital agency:
+ Today, DevlLz operates as a comprehensive digital agency:
 helping businesses grow online while empowering students to build careers that actually matter.
 <br /><br />
 We also proudly manage the digital presence for brands like
@@ -144,7 +144,7 @@ Just systems that work, websites that convert, and growth you can measure.
           <h2 className="text-2xl font-bold mb-3">Built by engineers, not salesmen</h2>
 
           <p className="text-gray-400 leading-relaxed">
-            Deevlz is built by developers and problem solvers who understand systems,
+            DevlLz is built by developers and problem solvers who understand systems,
             performance, and scalability.
             <br /><br />
             No inflated retainers. No fake case studies. No buzzword marketing.
@@ -171,7 +171,7 @@ Just systems that work, websites that convert, and growth you can measure.
           href="/contact"
           className="inline-block bg-green-400 text-black font-bold px-8 py-3 rounded-full hover:scale-105 transition"
         >
-          Contact Deevlz
+          Contact DevlLz
         </Link>
       </motion.section>
 

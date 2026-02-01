@@ -27,7 +27,7 @@ export default function StudentPage() {
         className="min-h-[60vh] flex flex-col justify-center items-center text-center px-6"
       >
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          Deevlz Student
+          DevlLz Student
         </h1>
 
         <p className="text-gray-400 max-w-2xl">
@@ -154,7 +154,7 @@ export default function StudentPage() {
               target="_blank"
           className="inline-block bg-blue-400 text-black font-bold px-8 py-3 rounded-full hover:scale-105 transition"
         >
-          Contact Deevlz Student →
+          Contact DevlLz Student →
         </Link>
       </motion.section>
 
