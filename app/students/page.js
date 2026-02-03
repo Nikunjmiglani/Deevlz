@@ -35,7 +35,7 @@ export default function StudentPage() {
         </p>
 
         <Link
-          href="https://wa.me/919519517579"
+          href="https://wa.me/919717884472"
           target="/"
           className="mt-6 inline-block bg-blue-400 text-black font-bold px-8 py-3 rounded-full hover:scale-105 transition"
         >
@@ -150,11 +150,11 @@ export default function StudentPage() {
         </p>
 
         <Link
-          href="https://wa.me/91951951759"
+          href="https://wa.me/919717884472"
               target="_blank"
           className="inline-block bg-blue-400 text-black font-bold px-8 py-3 rounded-full hover:scale-105 transition"
         >
-          Contact DevlLz Student →
+          Contact DevlLz Student→
         </Link>
       </motion.section>
 
